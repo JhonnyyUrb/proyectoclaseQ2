@@ -56,6 +56,23 @@ return user;
 
     }
 
+  /*  public async Task<string> Login(LoginDto dto)
+    {
+        //buscar el usuario
+        var collection = _firebaseService.GetCollection("users");
+        var snapshot = await collection
+            .WhereEqualTo(("Email", dto.Email)
+            .GetSnapshotAsync();
+
+        if (snapshot.Count)
+        {
+            
+        }
+    }*/
+    
+    
+    
+    
     private string HashPassword(string password)
     
         {
