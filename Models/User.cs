@@ -17,5 +17,5 @@ public class User
      public string Role { get; set; } = "user";
      
      // para saber cuando se cre el registro
-     public DateTime Created { get; set; } = DateTime.UtcNow; 
+     public DateTime CreatedAt { get; set; } = DateTime.UtcNow; 
 }
